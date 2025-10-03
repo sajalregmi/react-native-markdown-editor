@@ -23,7 +23,8 @@ Here are some screenshots of the Markdown Editor in action:
 Install the package via NPM:
 
 ```bash
-npm install react-native-markdown-editor
+npm install react-native-markdown-content-editor
+
 ```
 
 ### Required Peer Dependencies
@@ -41,7 +42,7 @@ The `MarkdownEditor` component provides a flexible interface for rendering and e
 ```javascript
 import React from 'react';
 import { View } from 'react-native';
-import { MarkdownEditor } from 'react-native-markdown-editor';
+import MarkdownEditor  from 'react-native-markdown-content-editor';
 
 const App = () => {
   const handleContentChange = (content) => {
